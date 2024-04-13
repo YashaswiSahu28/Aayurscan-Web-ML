@@ -3,7 +3,7 @@ import Sidenav from '../Sidenav'
 import Box from '@mui/material/Box';
 
 
-function Floraspot() {
+function Plantplay() {
     return (
         <Box>
         <Sidenav/>
@@ -11,4 +11,4 @@ function Floraspot() {
       )
 }
 
-export default Floraspot
+export default Plantplay
