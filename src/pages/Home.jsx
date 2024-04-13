@@ -8,26 +8,31 @@ import CustomWebcam from "../Components/CustomWebcam";
 
 function HomePage() {
   return(
-    <Box sx={{ flexGrow: 1, marginTop: '100px', marginLeft:"60px", marginRight:"60px"}}>
-      <Typography className="para" sx={{ alignContent: 'center', color: '#fff', padding: '20px' }}>
-      Unlock the mysteries of nature with our intuitive website! Simply upload a photo or scan a plant, 
-      and our AI-powered tool instantly identifies it for you. Whether you're a seasoned botanist or a 
-      curious enthusiast, discover the beauty of plants effortlessly!
-
-      </Typography>
-      
-      
-      <Box className="app-container" sx={{ display: "flex", backgroundColor: '#233610' }}>
+    <div className="home-div">
       <Sidenav/>
-      <Box>
-      <CustomWebcam />
+      <Box 
+      sx={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexGrow: 1,
+        marginTop: '100px',
+        marginLeft: '60px',
+        marginRight: '60px',
+        flexDirection:'column',
+      }}
+      >
+        <h1 style={{ color: 'white' }}>Welcome to Aayurscan: Your Portal to Medicinal Plant Recognition.</h1>
+        <Typography className="para" sx={{ alignContent: 'justify', color: '#fff', padding: '20px' }}>
+        
+        Join us on Aayurscan and embark on an expedition to elevate your understanding of nature's treasures through a sophisticated, user-friendly interface tailored for the discerning explorer.
+        </Typography>
+        <Box className="app-container" sx={{ display: "flex"}}> 
+            <CustomWebcam />
+        </Box>
       </Box>
-      
-      </Box>
-      
+    </div>
     
-    
-    </Box>
     
   );
 }
