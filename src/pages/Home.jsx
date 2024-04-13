@@ -1,8 +1,10 @@
+
 import React from 'react';
 import '../App.css'; 
 import Sidenav from '../Sidenav';
 import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
+import CustomWebcam from "../Components/CustomWebcam";
 
 function HomePage() {
   return(
@@ -17,6 +19,9 @@ function HomePage() {
       
       <Box className="app-container" sx={{ display: "flex", backgroundColor: '#233610' }}>
       <Sidenav/>
+      <Box>
+      <CustomWebcam />
+      </Box>
       
       </Box>
       

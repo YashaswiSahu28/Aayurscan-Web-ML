@@ -1,5 +1,4 @@
 import './App.css';
-import ImageUpload from './Components/ImageUpload';
 import Sidenav from './Sidenav';
 import Box from '@mui/material/Box';
 import ImageScanner from './Components/ImageScanner';

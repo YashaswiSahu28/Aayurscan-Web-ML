@@ -1,3 +1,4 @@
+
 .app-container {
   display: flex;
   flex-direction: column;
@@ -17,5 +18,73 @@
 
 }
 
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color:transparent;
+}
 
+img,
+video {
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.controls {
+  display: flex;
+  gap: 16px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.btn-container button {
+  cursor: pointer;
+  display: inline-block;
+  outline: 0;
+  border: none;
+  padding: 16px 56px;
+  border-radius: 8px;
+  background-color: #031b0a;
+  color: white;
+  font-size: 16px;
+  box-shadow: 0 4px 14px 0 rgba(226, 247, 37, 0.39);
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-container button:hover {
+  background: rgba(0, 118, 255, 0.9);
+  box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+}
+
+.css-158izyp{
+  height: 500px;
+  width: 500px;
+  align-self: center;
+}
+.css-a4pnxt {
+  margin-top: 110px;
+    margin-left: 70px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    align-content: center;
+}
+
+.css-0{
+  margin:0px;
+}
