@@ -15,10 +15,10 @@ function ImageScanner() {
     setIsScanning(false);
   };
 
-  const handleImageCapture = (imageData) => {
-    // Handle captured image data
-    setScannedImage(imageData);
-  };
+  // const handleImageCapture = (imageData) => {
+  //   // Handle captured image data
+  //   setScannedImage(imageData);
+  // };
 
   return (
     <div>

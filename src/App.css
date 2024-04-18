@@ -166,3 +166,8 @@ video {
   align-items: center;
   justify-content: center;
 }
+
+.upload{
+  padding: 20px;
+  padding-top: 35px;
+}
