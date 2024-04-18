@@ -38,7 +38,7 @@ const CustomWebcam = () => {
           <div className="qr" style={{ position: 'relative' }}>
             <Webcam height={'auto'} width={'100%'} ref={webcamRef} />
             <div className="qr-img" style={{ position: 'absolute', top: -60, left: 0, width: '100%' }}>
-              <img src={require(`../assets/scanner.png`)} style={{ width: '100%' }} />
+              <img src={require(`../assets/scanner.png`)} alt="scanner" style={{ width: '100%' }} />
             </div>
           </div>
           <div className="btn-container">

@@ -5,6 +5,7 @@ import Sidenav from '../Sidenav';
 import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
 import CustomWebcam from "../Components/CustomWebcam";
+import FileUpload from '../Components/FileUpload';
 
 function HomePage() {
   return(
@@ -22,13 +23,20 @@ function HomePage() {
         flexDirection:'column',
       }}
       >
-        <h1 style={{ color: 'white' }}>Welcome to Aayurscan: Your Portal to Medicinal Plant Recognition.</h1>
+        <h1 style={{ color: 'white' }}>Welcome to Aayurscan: Your Portal to Medicinal Plant Recognition!</h1>
         <Typography className="para" sx={{ alignContent: 'justify', color: '#fff', padding: '20px' }}>
         
         Join us on Aayurscan and embark on an expedition to elevate your understanding of nature's treasures through a sophisticated, user-friendly interface tailored for the discerning explorer.
         </Typography>
         <Box className="app-container" sx={{ display: "flex"}}> 
-            <CustomWebcam />
+          <CustomWebcam />
+        </Box>
+        <Box className="upload">
+        <Typography  variant="body1" sx={{ alignContent: 'justify', color: '#fff', padding: '10px' }}>
+        OR
+        Upload image from your Device
+        </Typography>
+          <FileUpload/>
         </Box>
       </Box>
     </div>
